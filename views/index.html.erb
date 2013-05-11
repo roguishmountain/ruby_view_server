@@ -3,9 +3,29 @@
   The time is now:
   <%= Time.now %>
 </p>
-
+ 
+ <% @name = "Sam" %>
 <p>
   My Name is:
   <%= @name %>
 </p>
+
+<ul>
+	<%arr = ['hello', 'hola', 'bonjour', 'shalom', 'ni hao', 'salam', 'bueno'] %>
+  <% arr.each do |x| %>
+    <li>I like to say <%= x %></li>
+  <% end %>
+</ul> 
+
+<ol>
+	<%arr = ['hello', 'hola', 'bonjour', 'shalom', 'ni hao', 'salam', 'bueno'] %>
+  <% arr.each do |x| %>
+    <li>I like to say <%= x %></li>
+  <% end %>
+</ol> 
+
+<span>
+  The time is now:
+  <%= Time.now %>
+</span>
 
